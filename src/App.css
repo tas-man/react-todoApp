@@ -1,0 +1,148 @@
+html, body {
+  min-width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #1F3628;
+  color: #e7dede;
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+
+}
+
+.App-header {
+  min-height: 180px;
+  background-color: #04140A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  max-width: 300px;
+  color: #6C997E;
+  display: inline-block;
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.App-content-wrapper {
+  min-width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 4% 0;
+}
+
+.App-list-wrapper {
+  min-width: 260px;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.App-list {
+  margin: 0;
+  padding: 0;
+}
+
+.Add-task-btn {
+  min-width: 260px;
+  width: 50vw;
+  min-height: 50px;
+  background: #0F2618;
+  color: #e7dede;
+  display: block;
+  font-weight: bold;
+  font-size: 1em;
+  border: 0;
+  margin: 2% auto;
+  padding: 2% 4%;
+}
+
+.Add-task-btn:hover {
+  background: #6C997E;
+}
+
+#Add-task-btn-text {
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#Add-task-btn-symbol {
+  width: 10%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.swal-alert-box {
+  background-color: #6C997E;
+}
+
+.swal-title {
+  color: #e7dede;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.swal-icon--success::before {
+  background-color: #6C997E;
+}
+
+.swal-icon--success__hide-corners {
+  background-color: #6C997E;
+}
+
+.swal-icon--success::after {
+  background-color: #6C997E;
+}
+
+.swal-btn {
+  color: #e7dede;
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border: 1px solid #0F2618;
+}
+
+.swal-btn.cancel {
+  background: #41644F;
+}
+
+.swal-btn.cancel:hover {
+  background: #6C997E;
+}
+
+.swal-btn.cancel:active {
+  background: #6C997E;
+}
+
+.swal-btn.confirm {
+  background: #0F2618;
+}
+
+.swal-btn.confirm:hover {
+  background: #6C997E;
+}
+
+.swal-btn.confirm:active {
+  background: #6C997E;
+}
+
+.App-footer {
+  min-height: 15vh;
+  background-color: #04140A;
+  padding: 12% 4%;
+  font-size: 0.6em;
+}
